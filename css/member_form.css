@@ -1,0 +1,194 @@
+
+
+.member{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 650px
+}
+
+.member_space1{
+    width: 20%;
+    height: 100%;
+ 
+}
+
+.member_center{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+}
+
+.member_center> h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form{
+    width: 100%;
+}
+
+.member_form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.member_center_form_text{
+    width: 30%;
+    font-size: 16px;
+    text-align: start;
+    padding-left: 20px;
+}
+
+
+
+.member_center_form_inputid{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.member_center_form_inputpassword{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.member_center_form_inputpasswordrecheck{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.member_center_form_inputname{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.member_center_form_inputemail1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.member_form_input{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.member_center_form_inputgender{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.member_center_form_inputlocation{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+select{
+    width: 100%;
+    height: 100%;
+    font-size: large;
+}
+
+
+
+.member_center_form_img{
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+
+}
+
+.member_space2{
+    height: 100%;
+    width: 20%;
+  
+}   
+
+
+
+
+.save_or_cancel{
+    padding-right: 30px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+
+
+
+
+
+
+
+.save{
+  margin-right: 10px;
+
+}
+
+.cancel{
+
+   padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

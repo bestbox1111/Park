@@ -1,0 +1,76 @@
+/* 반응형에 따른 변화*/
+@media screen and (max-width:500px) {
+
+   
+    .middle2_right{
+        height: 100%;   
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .middle2_right_2{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .middle2_right_2 a{
+    font-size: 12px;
+    }
+
+    .member_space1{
+        width: 10%;
+        height: 100%;
+    }
+
+
+    .member{
+
+        height: 70%;
+    }
+
+    .member_center{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+    }
+
+
+    .member_form{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+ 
+    }
+
+    .member_space2{
+        width: 10%;
+        height: 100%;
+    
+    }
+
+    select {
+        width:100%;
+        height: 30px;
+    
+        font-size: 5px;
+        padding:5px;
+        border:1px solid #999;
+        border-radius:3px;
+    }
+
+    input{
+        width: 100%;
+        height: 30px;
+        font-size: medium;
+        padding-top: 5px;
+        text-align: center;
+    }
+
+
+
+ }
+ /* 반응형에 따른 변화 끝*/

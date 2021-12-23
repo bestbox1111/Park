@@ -1,0 +1,36 @@
+
+
+/* 반응형에 따른 변화*/
+@media screen and (max-width:500px) {
+
+    #nav{
+        display: flex;
+        flex-direction: column;
+    }
+    #nav .navbar_menu{
+        width: 100%;
+        display: flex;
+        /* display: inline-block; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+    
+    
+    .navbar_menu li{
+        padding: 8px 12px;
+        /* display: inline-block; */
+        width: 100%;
+     
+        text-align:center;
+    }
+
+ }
+
+
+    /* 내비바 위에 올라갈시  색상 변경 */
+    .navbar_menu a:hover{
+        background-color:aquamarine;
+        border-radius: 10px 10px 10px 10px;
+    }

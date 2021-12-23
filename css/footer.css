@@ -1,0 +1,30 @@
+#footer{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.space1{
+    width: 30%;
+    height: 100%;
+}
+
+.space2{
+    width: 30%;
+    height: 100%;
+}
+
+.footer_h{
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+

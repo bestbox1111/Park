@@ -1,0 +1,98 @@
+#nav_select{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    border-bottom: solid 1px gray;
+    width: 100%;
+    
+}
+
+select {
+    width:100px;
+    height: 60px;
+    padding:5px;
+    border:1px solid #999;
+    font-family:'Nanumgothic';
+    border-radius:3px;
+}
+
+button{
+    width:100px;
+    height: 60px;
+    padding:5px;
+    border:1px solid #999;
+    font-family:'Nanumgothic';
+    border-radius:3px;
+}
+
+option{
+    font-size: medium;
+}
+
+
+input{
+    width: 300px;
+    height: 60px;
+    font-size: xx-large;
+    padding-top: 5px;
+    text-align: center;
+}
+
+
+.middle2_center{
+    display: inline-block;
+    
+    justify-content: center;
+    text-align: center;  
+    width: 70%;
+}
+
+
+
+/*  오른쪽 부분 로그인 태그부분. */
+.middle2_right{
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-right: 10px;
+ 
+}
+.middle2_right_1{
+   
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 60px;
+}
+.middle2_right_1 > button{
+
+    width: 120px;
+    height: 60px;
+}
+
+.middle2_right_2{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 15px;
+}
+
+.findid{
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+
+}

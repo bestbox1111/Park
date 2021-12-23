@@ -1,0 +1,25 @@
+/* 쪽지 보내기(message_form.php) */
+#message_box { position: relative; width: 1100px; margin: 0 auto; }
+#message_box h3 { margin-top: 30px;	padding: 10px; border-bottom: solid 2px #516e7f; font-size: 20px; }
+
+ 
+
+/* 수신/송신 쪽지함(message_form.php)  */
+
+#message li { padding: 10px; border-bottom: solid 1px #dddddd; }
+#message li:nth-child(1) { font-weight: bold; }
+#message span {	display: inline-block; text-align: center; }
+#message .title { font-weight: bold; }
+#message .col1 { width: 80px; }
+#message .col2 { width: 490px; text-align: left; }
+#message .col3 { width: 200px; }
+#message .col4 { width: 250px; }
+#page_num {	text-align: center;	margin: 30px 0 }
+#page_num li { display: inline; }
+#message_box .top_buttons  { text-align: right; margin: 20px 0 20px 0; }
+#message_box .top_buttons li { display: inline; margin-right: 20px; }
+#message_box .top_buttons a:link { text-decoration: underline; color: green; }
+#message_box .top_buttons a:visited { text-decoration: underline; color: green; }
+#message_box .buttons { text-align: right; margin: 20px 0 40px 0; }
+#message_box .buttons li { display: inline; }
+#message_box .buttons button { padding: 5px 10px; cursor: pointer; }

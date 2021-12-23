@@ -1,0 +1,139 @@
+/* 반응형에 따른 변화*/
+@media screen and (max-width:500px) {
+
+    #title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+    }
+
+
+    #title > .title_name{
+        height: 150px;
+    }
+
+    #title > .title_log{
+        padding-left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 20%;
+    }
+
+    #nav{
+        display: flex;
+        flex-direction: column;
+    }
+    #nav .navbar_menu{
+        width: 100%;
+        display: flex;
+        display: inline-block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+    
+    .navbar_menu li{
+        padding: 8px 12px;
+        width: 100%;
+        text-align:center;
+    }
+
+    /* 셀렉트 부분과 로그인 부분. */
+    select {
+        width:50px;
+        height: 30pxpx;
+    
+        font-size: 5px;
+        padding:5px;
+        border:1px solid #999;
+        border-radius:3px;
+    }
+    
+    button{
+        margin-top: 25px;
+        width:80%;
+        height: 30px;
+        margin-right: 40px;
+        border:1px solid #999;
+        border-radius:3px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    input{
+        width: 120px;
+        height: 60px;
+        font-size: xx-large;
+        padding-top: 5px;
+        text-align: center;
+    }
+
+    .middle2_right{
+        height: 100%;   
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .middle2_right_2{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .middle2_right_2 a{
+    font-size: 12px;
+    }
+
+    .member_space1{
+        width: 10%;
+        height: 100%;
+    }
+
+    .member_center{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+    }
+
+
+    .member_form{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 70px;
+        justify-content: center;
+        align-items: center;
+ 
+    }
+
+    .member_space2{
+        width: 10%;
+        height: 100%;
+    
+    }
+
+    select {
+        width:100%;
+        height: 30px;
+    
+        font-size: 5px;
+        padding:5px;
+        border:1px solid #999;
+        border-radius:3px;
+    }
+
+    input{
+        width: 100%;
+        height: 30px;
+        font-size: medium;
+        padding-top: 5px;
+        text-align: center;
+    }
+ }
+ /* 반응형에 따른 변화 끝*/

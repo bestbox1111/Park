@@ -1,0 +1,177 @@
+*{
+    margin: 0% auto;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+html body{
+    width: 100%;
+    background-color: honeydew;
+}
+
+.wrap{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+
+}
+
+.wrap_first{
+    width: 30%;
+    height: 100%;
+    background-color:honeydew;
+}
+
+.wrap_center{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap_last{
+    background-color:honeydew;
+
+    width: 30%;
+    height: 100%;
+}
+
+.login_title{
+    margin-top: 30x;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+    font-weight: 100;   
+    color: greenyellow;
+}
+
+
+.login_title h1{
+    font-size: 3rem;
+}
+
+.login_input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.login_input_1{
+
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+}
+.login_input_2{
+
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+}
+form{
+
+width: 100%;
+height: 100%;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    background-color: greenyellow;
+}
+
+.login_maintain{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  margin-bottom: 5px;
+
+
+}
+
+
+
+
+.login_maingo a{
+    display: flex;
+    flex-direction: row;
+}
+.login-v1 {
+
+    flex-direction: row;
+    display: flex;
+
+}
+
+.login-v1 a{
+
+    /* padding-right: 10px;
+    margin-left: 10px;
+}
+
+.login-v2 h3{
+
+    /* padding-left: 10px; */
+    margin-right: 10px;
+
+}
+
+
+
+.membership{
+    /* margin-top: 10px;
+    padding-top: 20px; */
+    height: 30px;
+}
+
+.membership > h3{
+    /* margin-top: 10px;
+    padding-top: 20px; */
+    height: 30px;
+}
+
+#footer{
+
+   
+    margin-top: 80px;    
+    height: 180px;    
+    flex-grow: 1;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+
+
+#footer> h3{
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width:500px) {
+    .login_title h1{
+        font-size: xx-large;
+    }
+
+
+
+    #footer> h3{
+        font-size: small;
+    }
+}

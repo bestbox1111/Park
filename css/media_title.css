@@ -1,0 +1,36 @@
+
+
+/* 반응형에 따른 변화*/
+@media screen and (max-width:500px) {
+
+    #title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+    }
+
+
+    #title > .title_name{
+     font-size: 1rem;
+     text-align: center;
+    }
+
+    .title_log{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+
+
+  
+
+
+
+

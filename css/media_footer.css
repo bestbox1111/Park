@@ -1,0 +1,25 @@
+/* 반응형에 따른 변화*/
+@media screen and (max-width:500px) {
+
+#footer{
+    width: 100%;
+}
+
+
+    .space1{
+        width: 5%;
+    
+    }
+    
+    .space2{
+        width: 5%;
+    }
+    
+    .footer_h> h3{
+        width: 90%;
+     font-size: 14px;
+    }
+
+
+}
+

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+
+
+    <FORM name="frms1">
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr align="center">
+            <td nowrap height="11"> &nbsp;
+                <select name="s0" size="1" >
+               
+                    <option>천안시</option>
+                    </select>
+
+        <select name="s1" size="1" onChange="redirect(this.options.selectedIndex)">
+        <option selected> 서북구</option>
+        <option> 동남구</option>
+        </select>
+        
+        <select name="s2" size="1" onChange="redirect1(this.options.selectedIndex)">
+        <option value=" " selected>=== </option>
+        <option value=" " selected>---Select2--------------</option>
+        <option value=" " selected>---Select2--------------</option>
+        </select>
+        
+        <select name="s4" size="1" onChange="redirect2(this.options.selectedIndex)">
+        <option value=" " selected>=== </option>
+        <option value=" " selected>---Select3----------------</option>
+        <option value=" " selected>---Select3----------------</option>
+        </select>
+        
+         
+        
+        <!--//스크립트  : 셀렉트 컨트롤 아래에 위치해야 에러가 안난다.. -_-;;-->
+        
+        <script>
+       
+        
+         
+        
+        /*
+        
+        // 첫번째 셀렉트박스를 선택하면 나타날 두번째 셀렉트박스 옵션생성
+        
+        // 첫번째 셀렉트박스의 길이만큼 배열로 만든다음에 고 하부의 배열을 만들어서 옵션생성
+        
+        */
+        
+        var groups=document.frms1.s1.options.length
+        var group=new Array(groups)
+        for (i=0; i<groups; i++)
+        group[i]=new Array()
+        
+        group[0][0]=new Option("-두정동 ");
+        group[0][1]=new Option("-불당동 ");
+        group[0][2]=new Option("-성정동 ");
+
+        group[1][0]=new Option("-봉명동 ");
+        group[1][1]=new Option("-원성동");
+        group[1][2]=new Option("-안서동 ");
+
+
+         
+        
+        var temp=document.frms1.s2
+        
+        function redirect(x){
+        for (m=temp.options.length-1;m>0;m--)
+        temp.options[m]=null
+        for (i=0;i<group[x].length;i++){
+        temp.options[i]=new Option(group[x][i].text,group[x][i].value)
+        }
+        temp.options[0].selected=true
+        redirect1(0)
+        }
+        
+         
+     
+        
+        var secondGroups=document.frms1.s2.options.length
+        var secondGroup=new Array(groups)
+        for (i=0; i<groups; i++)  {
+        secondGroup[i]=new Array(group[i].length)
+        for (j=0; j<group[i].length; j++)  {
+        secondGroup[i][j]=new Array()  }}
+        
+        secondGroup[0][0][0]=new Option("두정양식");
+        secondGroup[0][0][1]=new Option("두정중식 ");
+        secondGroup[0][0][2]=new Option("두정일식");
+        secondGroup[0][0][3]=new Option("두정한식");
+        secondGroup[0][0][4]=new Option("두정안주");
+
+        secondGroup[0][1][0]=new Option("불당양식");
+        secondGroup[0][1][1]=new Option("불당중식 ");
+        secondGroup[0][1][2]=new Option("불당일식");
+        secondGroup[0][1][3]=new Option("불당한식");
+        secondGroup[0][1][4]=new Option("불당안주");
+
+        secondGroup[0][2][0]=new Option("성정양식");
+        secondGroup[0][2][1]=new Option("성정중식 ");
+        secondGroup[0][2][2]=new Option("성정일식");
+        secondGroup[0][2][3]=new Option("성정한식");
+        secondGroup[0][2][4]=new Option("성정안주");
+
+
+// 중간
+
+
+        secondGroup[1][0][0]=new Option("봉명양식");
+        secondGroup[1][0][1]=new Option("봉명중식 ");
+        secondGroup[1][0][2]=new Option("봉명일식");
+        secondGroup[1][0][3]=new Option("봉명한식");
+        secondGroup[1][0][4]=new Option("봉명안주");
+
+        secondGroup[1][1][0]=new Option("원성양식");
+        secondGroup[1][1][1]=new Option("원성중식 ");
+        secondGroup[1][1][2]=new Option("원성일식");
+        secondGroup[1][1][3]=new Option("원성한식");
+        secondGroup[1][1][4]=new Option("원성안주");
+
+        secondGroup[1][2][0]=new Option("안서양식");
+        secondGroup[1][2][1]=new Option("안서중식 ");
+        secondGroup[1][2][2]=new Option("안서일식");
+        secondGroup[1][2][3]=new Option("안서한식");
+        secondGroup[1][2][4]=new Option("안서안주");      
+         
+        
+         
+        
+         
+        
+         
+        
+        /*
+        
+        // 두번째 셀렉트박스가 바뀌면 자동으로 세번째 셀렉트박스의 옵션들이 생기게 하는 스크립트
+        
+        */
+        
+        var temp1=document.frms1.s4
+        function redirect1(y){
+        for (m=temp1.options.length-1;m>0;m--)
+        temp1.options[m]=null
+        for (i=0;i<secondGroup[document.frms1.s1.options.selectedIndex][y].length;i++){
+        temp1.options[i]=new Option(secondGroup[document.frms1.s1.options.selectedIndex][y][i].text,secondGroup[document.frms1.s1.options.selectedIndex][y][i].value)
+        }
+        temp1.options[0].selected=true
+        }
+        
+        function redirect2(z){
+        window.location=temp1[z].value
+        }
+        
+     
+        </script>
+        
+          </td>
+          </tr>
+        </table>
+        </FORM>
+        
+      
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
